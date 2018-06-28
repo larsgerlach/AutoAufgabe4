@@ -1,0 +1,34 @@
+Zuallererst: Eine kleine Eclipse-Lektion.
+	- Den In der letzten Aufgabe gebauten Konstruktor können wir vorübergehend nicht gebrauchen. Wie werden wir ihn los ohne ihn
+	  permanent zu löschen?
+		- Markiere den Konstruktor und drücke Strg+7. Dadurch wird er auskommentiert und vom Compiler nicht mehr als Code
+		  behandelt. Mit einem weiteren Strg+7 wird das wieder rückgängig gemacht.
+	
+	- Statt des Konstruktors setzen wir jetzt die int anzahlRaeder standardmäßig auf 4, indem wir einfach in der Deklaration statt
+	  "int anzahlRaeder" sofort "int anzahlRaeder = 4;" schreiben. Damit ist der Wert nicht automatisch null und wir können
+	  damit arbeiten.
+
+	- Wenn der gesamte Konstruktor erfolgreich auskommentiert ist, können wir weitermachen.
+
+	- Zusätzlich den gesamten Inhalt der main-Methode löschen.
+
+
+Dann drei neue Klassen bauen:
+	- Mercedes
+	- Smart
+	- Audi
+
+All diese Klassen sollen Auto extenden, also Unterklassen von Auto sein. Sie bekommen jeweils ein eigenes Feld:
+	- Mercedes: 	int sterndurchmesser
+	- Smart: 	String modell
+	- Audi: 	boolean istArschlochDrin
+
+Diese Felder sollen private sein (private ist fast immer besser als public) und getter und setter besitzen.
+
+Nachdem die Klassen gebaut sind, in der main jeweils ein Exemplar der Unterklassen erzeugen und mit den speziellen settern Werte zuweisen.
+	- Bsp.: audi1.setIstArschlochDrin(true);
+		smart1.setModell("Roadster");
+		merc1.setSterndurchmesser(12);
+
+Wenn du möchtest, kannst du dir jetzt über getter noch die Werte zur Kontrolle ausgeben lassen.
+
