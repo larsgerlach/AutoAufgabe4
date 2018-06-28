@@ -1,6 +1,6 @@
 package aufgabe;
 
-public class Audi {
+public class Audi extends Auto {
 	private boolean istArschlochDrin;
 
 	public boolean isIstArschlochDrin() {

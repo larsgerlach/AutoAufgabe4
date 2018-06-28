@@ -1,6 +1,6 @@
 package aufgabe;
 
-public class Mercedes {
+public class Mercedes extends Auto {
 
 	private int sterndurchmesser;
 
