@@ -1,14 +1,11 @@
-Zuallererst: Eine kleine Eclipse-Lektion.
-	- Den In der letzten Aufgabe gebauten Konstruktor können wir vorübergehend nicht gebrauchen. Wie werden wir ihn los ohne ihn
-	  permanent zu löschen?
-		- Markiere den Konstruktor und drücke Strg+7. Dadurch wird er auskommentiert und vom Compiler nicht mehr als Code
-		  behandelt. Mit einem weiteren Strg+7 wird das wieder rückgängig gemacht.
-	
-	- Statt des Konstruktors setzen wir jetzt die int anzahlRaeder standardmäßig auf 4, indem wir einfach in der Deklaration statt
-	  "int anzahlRaeder" sofort "int anzahlRaeder = 4;" schreiben. Damit ist der Wert nicht automatisch null und wir können
-	  damit arbeiten.
-
-	- Wenn der gesamte Konstruktor erfolgreich auskommentiert ist, können wir weitermachen.
+	- In dieser Aufgabe brauchen wir den Konstruktor, allerdings ohne Parameter. Er soll einfach nur die int anzahlRaeder auf 4 setzen. Das würde 
+	  folgendermaßen aussehen:
+	  
+	  public Auto() {
+		anzahlRaeder = 4;
+	  }
+	  
+	  Diesen Konstruktor muss man nicht besonders aufrufen, sondern das Auto wie immer normal mit "new Auto()" erzeugen.
 
 	- Zusätzlich den gesamten Inhalt der main-Methode löschen.
 
