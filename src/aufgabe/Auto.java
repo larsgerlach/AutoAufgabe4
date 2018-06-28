@@ -3,6 +3,7 @@ package aufgabe;
 public class Auto {
 
 	public Auto() {
+		automarke = "Auto";
 		anzahlRaeder = 4;
 	}
 
