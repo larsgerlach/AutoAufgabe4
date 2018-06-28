@@ -1,8 +1,9 @@
-	- In dieser Aufgabe brauchen wir den Konstruktor, allerdings ohne Parameter. Er soll einfach nur die int anzahlRaeder auf 4 setzen. Das würde 
-	  folgendermaßen aussehen:
+	- In dieser Aufgabe brauchen wir den Konstruktor, allerdings ohne Parameter. Er soll einfach nur die int anzahlRaeder auf 4 
+	  und die "automarke" auf Auto setzen. Das würde folgendermaßen aussehen:
 	  
 	  public Auto() {
 		anzahlRaeder = 4;
+		automarke = "Auto";
 	  }
 	  
 	  Diesen Konstruktor muss man nicht besonders aufrufen, sondern das Auto wie immer normal mit "new Auto()" erzeugen.
