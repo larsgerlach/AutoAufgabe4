@@ -3,15 +3,13 @@ package aufgabe;
 public class Fahrer {
 	public static void main(String[] args) {
 
-		Auto auto1 = new Auto("Mercedes");
+		Audi audi1 = new Audi();
+		Mercedes merc1 = new Mercedes();
+		Smart smart1 = new Smart();
 
-		System.out.println(auto1.getRaeder());
+		audi1.setIstArschlochDrin(true);
+		merc1.setSterndurchmesser(10);
+		smart1.setModell("Roadster");
 
-		auto1.starten();
-		System.out.println(auto1.istMotorAn());
-		auto1.ausschalten();
-		System.out.println(auto1.istMotorAn());
-
-		System.out.println(auto1.getAutomarke());
 	}
 }

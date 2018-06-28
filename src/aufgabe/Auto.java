@@ -2,14 +2,14 @@ package aufgabe;
 
 public class Auto {
 
-	private int anzahlRaeder;
+	private int anzahlRaeder = 4;
 	private Motor motor = new Motor();
 	private String automarke;
 
-	public Auto(String automarke) {
-		this.anzahlRaeder = 4;
-		this.setAutomarke(automarke);
-	}
+	// public Auto(String automarke) {
+	// this.anzahlRaeder = 4;
+	// this.setAutomarke(automarke);
+	// }
 
 	public void starten() {
 		motor.setAn(true);
